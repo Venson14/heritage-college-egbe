@@ -53,13 +53,12 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid pt-5">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 class="display-4 fw-bold lh-1 text-light p-3">
+   <section class="Hero-Page container-fluid">
+    <div class="d-flex flex-column align-items-start justify-content-start  h-100 custom-container">
+                <h1 class="display-4 fw-bold lh-1 text-light pt-5 reveal-fade-up">
                     Welcome to Heritage International College Egbe
                 </h1>
-                <p class="lead text-light">
+                <p class="lead text-light reveal-fade-up">
                     This section provides an overview of our academic programs and opportunities for students to explore
                     their interests and passions. We offer a wide range of programs and courses that cater to diverse
                     learning needs and aspirations.
@@ -68,20 +67,18 @@
                     <button type="button" class="btn btn-outline-light btn-lg px-4 me-md-2 fw-bold">
                         Start Your Application
                     </button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4 d-none">
-                        Default
+                    <button type="button" class="btn btn-outline-info btn-lg px-4">
+                        Explore Our Gallery
                     </button>
                 </div>
-            </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="./ChatGPT Image Jun 30, 2026, 02_47_30 PM.png" alt="" width="720" />
-            </div>
-        </div>
+
     </div>
-    <section style="min-height: 100vh;" class="container-fluid bg-light pt-3">
+
+   </section>
+    <section style="min-height: 100vh;" class="container-fluid bg-light pt-3 reveal-slide-left">
         <h2 class="text-center text-dark m-3">Programs and Academics</h2>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
-            <div class="col">
+            <div class="col reveal-fade-up">
                 <div class="card text-center">
                     <img src="./IMG_20210322_171142.jpg" alt="" class="card-img-top">
                     <div class="card-body">
@@ -96,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col reveal-fade-up">
                 <div class="card text-center">
                     <img src="./IMG_20210322_171142.jpg" alt="" class="card-img-top">
                     <div class="card-body">
@@ -111,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col reveal-fade-up">
                 <div class="card text-center">
                     <img src="./Gemini_Generated_Image_qfqg8jqfqg8jqfqg.png" alt="" class="card-img-top">
                     <div class="card-body">
@@ -126,7 +123,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col reveal-fade-up">
                 <div class="card text-center">
                     <img src="./images (8).jpg" alt="" class="card-img-top">
                     <div class="card-body">
@@ -144,64 +141,81 @@
 
     </section>
 
-    <section style="min-height: 100vh;" class="container-fluid">
+    <section style="min-height: 50vh;" class="container-fluid reveal-fade-up">
         <h2 class="text-center text-dark m-3">Photo Gallery</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-1">
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
+       <div id="photoGalleryCarousel" class="carousel slide shadow" data-bs-ride="carousel" style="max-width: 800px; margin: 0 auto;">
+            <div class="carousel-inner rounded" style="height: 400px;">
+                <div class="carousel-item active h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    <img src="./Gemini_Generated_Image_qfqg8jqfqg8jqfqg.png" alt="Temporary Image" class="img-fluid rounded" style="max-height: 100%; max-width: 100%;">
+                    </div>
+                </div>
 
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    <img src="./ChatGPT Image Jun 30, 2026, 02_47_30 PM.png" alt="Temporary Image" class="img-fluid rounded" style="max-height: 100%; max-width: 100%;">
+                    </div>
+                </div>
 
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 3 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 4 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 5 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 6 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 7 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 8 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 9 will be added here
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <div class="d-flex justify-content-center align-items-center h-100 text-white fs-4">
+                    Image 10 will be added here
+                    </div>
+                </div>
 
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
 
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#photoGalleryCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                </button>
 
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-            <div class="col bg-secondary">
-                <p class="text-light lead p-5">Image will be added here</p>
-            </div>
-
-
+                <button class="carousel-control-next" type="button" data-bs-target="#photoGalleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>  
         </div>
+
     </section>
-    <section class="container-fluid testimonies">
+    <section class="container-fluid testimonies reveal-fade-up">
         <h2 class="text-center text-dark m-3">Testimonies</h2>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 reveal-slide-left">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text text-light">"This college has changed my life for the better. The education
@@ -210,7 +224,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 reveal-slide-left">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text text-light">"I am grateful for the opportunities and support I received at
@@ -219,7 +233,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 reveal-slide-left">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text text-light">"The faculty and staff are incredibly dedicated to student
@@ -230,7 +244,7 @@
             </div>
         </div>
 
-        <form action="#" class="form-control w-50 m-auto mt-5 mb-5 p-4">
+        <form action="#" class="form-control m-auto mt-5 mb-5 p-4 reveal-fade-up">
             <h3 class="text-light text-center">Subscribe to Our Newsletter</h3>
             <div class="mb-3">
                 <label for="name" class="form-label text-light">Name</label>
@@ -248,24 +262,65 @@
         </form>
     </section>
 
-    <footer class="text-light text-center p-3">
+    <footer class="text-light text-center p-3 d-flex align-items-center justify-content-center flex-row flex-md-row flex-wrap card-container reveal-fade-up">
 
-        <div class="social-links">
-            <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
-            <a href="https://wa.me/2348134567890" class="text-light"><i class="bi bi-whatsapp"></i></a>
+       <div class="container d-flex flex-column flex-md-row justify-content-sm-between align-items-center g-3">
+         <div class="social-links">
+            <p class="card-container reveal-fade-up">Connect with us:</p>
+            <a href="#" class="text-light me-2 card-container reveal-fade-up"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light me-2 card-container reveal-fade-up"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light me-2 card-container reveal-fade-up"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light card-container reveal-fade-up"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-light card-container reveal-fade-up"><i class="bi bi-whatsapp"></i></a>
+            </div>
+
+            <div class="card-container reveal-fade-up">
+            <p class="card-container reveal-fade-up">Quick Links:</p>
+            <ul class="list-unstyled card-container reveal-fade-up">
+            <li><a href="#" class="text-light">Admissions</a></li>
+            <li><a href="#" class="text-light">Academics</a></li>
+            <li><a href="#" class="text-light">News</a></li>
+            <li><a href="#" class="text-light">Contact Us</a></li>
+            </ul>
+            </div> 
+            <div class="card-container reveal-fade-up">
+            <address class="text-light text-sm">
+            <p><small>📍Heritage International College, 8, Doyin Bolaji Close, Behind Lagos Garrage, PMB 1000, Egbe, Kogi State, Nigeria.</small></p>
+            <p><small>📞 +234 803 123 4567</small></p>
+            <p><small>✉️ info@heritagecollege.edu.ng</small></p>
+            </address>
+            </div>
+       </div>
+        <div class="text-center mt-3 card-container reveal-fade-up">
+            <p>&copy; 2024 Heritage International College Egbe. All rights reserved.</p>
         </div>
-
-        <ul class="list-unstyled">
-            <li><a href="#" class="text-light">Privacy Policy</a></li>
-            <li><a href="#" class="text-light">Terms of Service</a></li>
-        </ul>
-        <p>&copy; 2024 Heritage International College Egbe. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const observerOptions = {
+      root: null, // watches viewport
+      threshold: 0.15 // triggers when 15% of the element is visible
+    };
+
+    const revealCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          // Optional: stop observing once revealed so it doesn't animate again on scroll up
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(revealCallback, observerOptions);
+
+    // Target elements to track
+    const targets = document.querySelectorAll('.reveal-fade-up, .reveal-slide-left');
+    targets.forEach(target => observer.observe(target));
+  });
+</script>
 </body>
 
 </html>
