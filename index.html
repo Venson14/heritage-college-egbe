@@ -15,7 +15,7 @@
     <header> 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" id="home-link" href="#">
+                <a class="navbar-brand text-light" id="home-link" href="#">
                     <img src="./Logo.png" alt="Logo" width="50" height="50" class="rounded-circle">
                 </a>
                 <button class="navbar-toggler btn bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="About_Us.html" target="_self">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Academics</a>
@@ -243,24 +243,41 @@
                 </div>
             </div>
         </div>
-
-        <form action="#" class="form-control m-auto mt-5 mb-5 p-4 reveal-fade-up">
-            <h3 class="text-light text-center">Subscribe to Our Newsletter</h3>
-            <div class="mb-3">
-                <label for="name" class="form-label text-light">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label text-light">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
-            </div>
-            <div class="mb-3">
-                <label for="telephone" class="form-label text-light">Telephone</label>
-                <input type="tel" class="form-control" id="telephone" placeholder="Enter your telephone number">
-            </div>
-            <button type="submit" class="btn btn-outline-light">Subscribe</button>
-        </form>
     </section>
+    <div class="row d-flex justify-content-center align-items-center m-3 reveal-fade-up">
+        <div class="col-md-6 reveal-fade-up">
+             <form action="#" class="form-control m-auto mt-5 mb-5 p-4 reveal-fade-up">
+                <h3 class="text-light text-center">Subscribe to Our Newsletter</h3>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-light">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-light">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="telephone" class="form-label text-light">Telephone</label>
+                    <input type="tel" class="form-control" id="telephone" placeholder="Enter your telephone number">
+                </div>
+                <button type="submit" class="btn btn-outline-light">Subscribe</button>
+            </form>
+        </div>
+            <div class="col-md-6 reveal-fade-up">
+                <div class="card m-auto mt-5 mb-5 reveal-fade-up">
+                    <img src="./IMG_20201128_112005.jpg" alt="Cross-section-graduating-students" class="card-img-top">
+                    <div class="card-body">
+                    <h5 class="card-title text-light">Cross Section of Graduating Students</h5>
+                    <p class="card-text text-light">
+                        Our students have achieved remarkable success in their academic
+                        pursuits, and we are proud to celebrate their accomplishments.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
 
     <footer class="text-light text-center p-3 d-flex align-items-center justify-content-center flex-row flex-md-row flex-wrap card-container reveal-fade-up">
 
@@ -320,7 +337,7 @@
     const targets = document.querySelectorAll('.reveal-fade-up, .reveal-slide-left');
     targets.forEach(target => observer.observe(target));
   });
-</script>
+    </script>
 </body>
 
 </html>
