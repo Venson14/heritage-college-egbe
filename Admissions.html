@@ -12,17 +12,20 @@
 </head>
 <body>
   <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(10, 29, 60,);">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./Logo.png" alt="Heritage International College Logo" width="25" height="25" class="d-inline-block align-text-top rounded-circle">
-                    Heritage Int. College
+        <nav class="navbar navbar-expand-lg fixed-top premium-nav">
+            <div class="container-fluid px-3 px-lg-5">
+                <a class="navbar-brand text-light d-flex align-items-center gap-2" href="index.html">
+                    <img src="./Logo.png" alt="Heritage International College Logo" width="52" height="52" class="rounded-circle border border-light border-2 shadow-sm">
+                    <span class="brand-text">
+                        <span class="brand-title">Heritage College</span>
+                        <span class="brand-subtitle">Admissions Office</span>
+                    </span>
                 </a>
-                <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html" target="_self">Home</a>
                         </li>
@@ -32,58 +35,116 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="Admissions.html" target="_self">Admissions</a>
                         </li>
-                        <li class="nav-item d-none">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section style="min-height: 100vh; padding-top: 100px;" class="bg-light reveal-slide-left">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="text-primary reveal-slide-left">Admissions</h2>
-                <p class="text-muted lead reveal-slide-left">Join Heritage International College and embark on a journey of academic excellence and personal growth.</p>
-            </div>
-        </div>
-        <div class="admission-process container reveal-slide-left row d-flex justify-content-center align-items-start">
-            <div class="col-md-6">
-               <h3 class="text-primary">Admission Requirements</h3>
-                <ul class="list-unstyled">
-                    <li class="reveal-slide-left lead"><i class="fas fa-user text-primary"></i> Passport Photograph.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-id-card text-primary"></i> Completed application form.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-file-alt text-primary"></i> Academic transcripts or report cards from previous schools.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-user-graduate text-primary"></i> Letters of recommendation (if applicable).</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-file-signature text-primary"></i> Birth certificate or proof of age.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-vial text-primary"></i> Health records and immunization documentation.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-money-bill-wave text-primary"></i> Payment of application and enrollment fees.</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <h3 class="text-primary">Admission Process</h3>
-                <ul class="list-unstyled">
-                    <li class="reveal-slide-left lead"><i class="fas fa-paper-plane text-primary"></i> Submit your application online.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-folder text-primary"></i> Provide required documents and information.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-calendar-alt text-primary"></i> Schedule and attend an entrance examination.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-user-check text-primary"></i> Complete any additional assessments or interviews as required.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-envelope-open-text text-primary"></i> Receive your admission decision and next steps.</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-file-signature text-primary"></i> Complete enrollment paperwork and pay deposit fee (&#8358;10,000).</li>
-                    <li class="reveal-slide-left lead"><i class="fas fa-graduation-cap text-primary"></i> Attend orientation and begin your academic journey at Heritage International College.</li>
-                </ul>
+    <section class="admissions-hero">
+        <div class="hero-overlay"></div>
+        <div class="container h-100 py-5">
+            <div class="row h-100 align-items-center gy-4 py-5">
+                <div class="col-lg-7 text-white hero-content">
+                    <div class="hero-badge reveal-fade-up">Admissions • Step into a brighter future</div>
+                    <h1 class="display-5 fw-bold reveal-fade-up">Begin your child's journey with Heritage International College</h1>
+                    <p class="lead hero-copy reveal-fade-up">We make the admissions experience simple, welcoming and transparent from your first inquiry to your child's first day on campus.</p>
+                    <div class="d-flex flex-wrap gap-2 reveal-fade-up">
+                        <a href="#admission-form" class="btn hero-btn hero-btn-primary">Apply Now</a>
+                        <a href="#requirements" class="btn hero-btn btn-outline-light">View Requirements</a>
+                    </div>
+                    <div class="hero-highlights reveal-fade-up">
+                        <span><i class="bi bi-check2-circle"></i> Guided Support</span>
+                        <span><i class="bi bi-check2-circle"></i> Clear Process</span>
+                        <span><i class="bi bi-check2-circle"></i> Trusted School</span>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-card reveal-fade-up">
+                        <h3>Why families choose Heritage</h3>
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-check-circle-fill"></i> Structured academic support</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Safe and encouraging learning environment</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Strong values and future-ready programs</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="fee-structure">
-        <div class="container">
-            <h3 class="text-primary">Fee Structure</h3>
-            <p class="lead">Details about the tuition fees and payment options will be available soon.</p>
+
+    <section id="requirements" class="container py-5">
+        <div class="section-heading text-center mb-4">
+            <p class="eyebrow">Admissions</p>
+            <h2>Simple steps, clear requirements</h2>
+            <p class="text-muted">Everything you need to know to begin the process with confidence.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6 reveal-slide-left">
+                <div class="info-card h-100">
+                    <h3>Admission Requirements</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-user"></i> Passport photograph</li>
+                        <li><i class="fas fa-id-card"></i> Completed application form</li>
+                        <li><i class="fas fa-file-alt"></i> Academic transcripts or report cards</li>
+                        <li><i class="fas fa-user-graduate"></i> Recommendation letters where applicable</li>
+                        <li><i class="fas fa-file-signature"></i> Birth certificate or age proof</li>
+                        <li><i class="fas fa-vial"></i> Health records and immunization documents</li>
+                        <li><i class="fas fa-money-bill-wave"></i> Application and enrollment fees</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 reveal-slide-left">
+                <div class="info-card h-100">
+                    <h3>Admission Process</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-paper-plane"></i> Submit your application online</li>
+                        <li><i class="fas fa-folder"></i> Provide required documents and details</li>
+                        <li><i class="fas fa-calendar-alt"></i> Attend an entrance examination</li>
+                        <li><i class="fas fa-user-check"></i> Complete assessments or interviews if needed</li>
+                        <li><i class="fas fa-envelope-open-text"></i> Receive your admission decision</li>
+                        <li><i class="fas fa-file-signature"></i> Complete enrollment paperwork and pay the deposit</li>
+                        <li><i class="fas fa-graduation-cap"></i> Join orientation and begin your academic journey</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="online-admission-form bg-light" style="min-height: 100vh; padding-top: 50px;">
-        <form action="submit" enctype="multipart/form-data" method="post" class="container p-4 mb-3 rounded shadow reveal-slide-left">
-                <img src="./Logo.png" alt="logo" class="rounded-circle d-block mx-auto mb-3" width="50" height="50">
-                <h3 class="display-7 text-center fw-bold text-primary">Online Admission Application Form</h3>
+
+    <section class="fee-structure py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <p class="eyebrow">Fee Structure</p>
+                    <h2>Transparent next steps for enrollment</h2>
+                    <p class="text-muted">Admissions details, deposit requirements and payment guidance are shared directly with applicants so the journey stays clear and stress-free.</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="fee-card reveal-fade-up">
+                        <h4 class="text-light">Enrollment Deposit</h4>
+                        <div class="fee-amount">₦10,000</div>
+                        <p>Payable once admission is confirmed.</p>
+                        <a href="#admission-form" class="btn btn-outline-light mt-2">Start Application</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admission-form" class="online-admission-form py-5">
+        <div class="container">
+            <div class="section-heading text-center mb-4">
+                <p class="eyebrow">Application Form</p>
+                <h2>Start your application today</h2>
+                <p class="text-muted">Please fill in the form below to get the process started.</p>
+            </div>
+            <form action="submit" enctype="multipart/form-data" method="post" class="admission-form shadow reveal-slide-left">
+                <div class="form-brand">
+                    <img src="./Logo.png" alt="logo" class="rounded-circle" width="56" height="56">
+                    <div>
+                        <h3>Online Admission Application Form</h3>
+                        <p>Complete the form below to begin your application.</p>
+                    </div>
+                </div>
                 <div class="row mb-3 g-2">
                     <div class="col-md-4">
                     <input type="text" class="form-control" placeholder="First Name" required>
@@ -222,21 +283,25 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <label class="form-label text-light lead" for="passport">Upload Passport Photograph</label>
+                        <label class="form-label" for="passport">Upload Passport Photograph</label>
                         <input type="file" class="form-control" id="passport" accept=".pdf, .jpg, .jpeg" placeholder="Upload Passport Photograph" required>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label class="form-label text-light lead" for="transcripts">Upload Academic Transcripts</label>
+                        <label class="form-label" for="transcripts">Upload Academic Transcripts</label>
                         <input type="file" class="form-control" id="transcripts" accept=".pdf, .jpg, .jpeg" placeholder="Upload Academic Transcripts" required>
                     </div>
                 </div>
 
-                <input type="submit" value="Submit" class="btn btn-outline-primary btn-lg d-block mx-auto">
-        </form>
+                <div class="d-flex flex-wrap justify-content-between align-items-center mt-4 gap-3">
+                    <p class="mb-0 text-muted small">We’ll contact you after submission.</p>
+                    <input type="submit" value="Submit Application" class="btn btn-primary btn-lg">
+                </div>
+            </form>
 
-        <button class="btn btn-primary mt-4 mb-4 d-block mx-auto reveal-fade-up" onclick="window.location.href='index.html'">
-            Back to Home
-        </button>
+            <div class="text-center mt-4">
+                <a class="btn btn-outline-primary reveal-fade-up" href="index.html">Back to Home</a>
+            </div>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js"></script>

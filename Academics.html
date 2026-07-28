@@ -11,17 +11,20 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(10, 29, 60,);">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./Logo.png" alt="Heritage International College Logo" width="25" height="25" class="d-inline-block align-text-top rounded-circle">
-                    Heritage Int. College
+        <nav class="navbar navbar-expand-lg fixed-top premium-nav">
+            <div class="container-fluid px-3 px-lg-5">
+                <a class="navbar-brand text-light d-flex align-items-center gap-2" href="index.html">
+                    <img src="./Logo.png" alt="Heritage International College Logo" width="52" height="52" class="rounded-circle border border-light border-2 shadow-sm">
+                    <span class="brand-text">
+                        <span class="brand-title">Heritage College</span>
+                        <span class="brand-subtitle">Academics</span>
+                    </span>
                 </a>
-                <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html" target="_self">Home</a>
                         </li>
@@ -29,104 +32,140 @@
                             <a class="nav-link" href="About_Us.html" target="_self">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Admissions.html" target="_self">Admissions</a>
+                            <a class="nav-link active" href="Academics.html" target="_self">Academics</a>
                         </li>
-                        <li class="nav-item d-none">
-                            <a class="nav-link disabled">Disabled</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Admissions.html" target="_self">Admissions</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section style="min-height: 100vh; padding-top: 100px;" class="bg-light reveal-slide-left">
-    <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="text-primary reveal-slide-left">Our Academic Program</h2>
-      <p class="text-muted reveal-slide-left">Structured for excellence in the Nigerian curriculum.</p>
-    </div>
-
-    <div class="row reveal-slide-left">
-      <!-- JSS Card -->
-      <div class="col-md-6 gal-img reveal-slide-left">
-        <div class="card h-100 border-top border-5 border-primary reveal-fade-up">
-          <div class="card-body">
-            <h3 class="card-title text-light">Junior Secondary (JSS 1-3)</h3>
-            <p class="card-text text-light">Focuses on a broad curriculum including Mathematics, English, Basic Science, and Pre-Vocational studies to build a strong foundation.</p>
-            <ul class="list-unstyled text-light">
-              <li><i class="bi bi-check-circle text-primary"></i> Holistic Skill Development</li>
-              <li><i class="bi bi-check-circle text-primary"></i> Basic Technology</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SSS Card -->
-      <div class="col-md-6 gal-img reveal-slide-left">
-        <div class="card h-100 border-top border-5 border-primary reveal-fade-up">
-          <div class="card-body">
-            <h3 class="card-title text-light">Senior Secondary (SSS 1-3)</h3>
-            <p class="card-text text-light">Specialized streams in Sciences, Arts, and Commercial subjects, preparing students for NECO, WAEC, and JAMB success.</p>
-            <ul class="list-unstyled text-light">
-              <li><i class="bi bi-check-circle text-primary"></i> Advanced Core Subjects</li>
-              <li><i class="bi bi-check-circle text-primary"></i> University Entrance Prep</li>
-            </ul>
-            </div>
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="text-center mt-5">
-        <a href="downloads/School_Curriculum_2026.pdf" download="School_Curriculum_2026.pdf" class="btn btn-outline-primary ">
-            Download Academic Curriculum (PDF) 300KB
-        </a>
-    </div>
-
-    <div class="text-center mt-5">
-        <h3 class="text-primary reveal-slide-left">Extracurricular Activities</h3>
-        <p class="text-muted reveal-slide-left">Beyond the classroom, we offer a variety of activities to nurture your child's interests and talents.</p>
-    </div>
-    <div class="row mt-3 reveal-fade-up">
-        <div class="col-md-4 gal-img reveal-slide-left">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title text-light">Sports</h5>
-                    <p class="card-text text-light">Participate in various sports activities to promote physical fitness and team spirit.</p>
+    <section class="academics-hero">
+        <div class="hero-overlay"></div>
+        <div class="container py-5 h-100">
+            <div class="row align-items-center h-100 py-5 gy-4">
+                <div class="col-lg-7 hero-content">
+                    <div class="hero-badge reveal-fade-up">Academics • Excellence in every lesson</div>
+                    <h1 class="display-5 fw-bold reveal-fade-up text-light">A strong academic journey for every learner</h1>
+                    <p class="lead hero-copy reveal-fade-up">Our curriculum is designed to build knowledge, confidence and real-world skills from junior secondary through senior secondary studies.</p>
+                    <div class="d-flex flex-wrap gap-2 reveal-fade-up">
+                        <a href="#programs" class="btn hero-btn hero-btn-primary">Explore Programs</a>
+                        <a href="#activities" class="btn hero-btn btn-outline-light">View Activities</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-card reveal-fade-up">
+                        <h3 class="text-light">What students gain</h3>
+                        <ul class="list-unstyled mb-0 text-light">
+                            <li><i class="bi bi-check-circle-fill"></i> Strong subject foundations</li>
+                            <li><i class="bi bi-check-circle-fill"></i> University-entry preparation</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Balanced learning and growth</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 gal-img reveal-slide-left">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title text-light">Clubs and Societies</h5>
-                    <p class="card-text text-light">Join clubs and societies that align with your interests and passions.</p>
+    </section>
+
+    <section id="programs" class="container py-5">
+        <div class="section-heading text-center mb-4">
+            <p class="eyebrow">Our Academic Program</p>
+            <h2>Structured pathways for success</h2>
+            <p class="text-muted">A carefully designed curriculum that supports learners at every stage of school life.</p>
+        </div>
+
+        <div class="row g-4 reveal-slide-left">
+            <div class="col-lg-6">
+                <div class="academic-card h-100">
+                    <h3>Junior Secondary (JSS 1-3)</h3>
+                    <p>Our junior secondary program focuses on a broad curriculum including Mathematics, English, Basic Science and Pre-Vocational studies to build a strong foundation.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle"></i> Holistic skill development</li>
+                        <li><i class="bi bi-check-circle"></i> Solid grounding in core subjects</li>
+                        <li><i class="bi bi-check-circle"></i> Early exposure to practical learning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="academic-card h-100">
+                    <h3>Senior Secondary (SSS 1-3)</h3>
+                    <p>Specialized streams in Sciences, Arts and Commercial subjects prepare students for NECO, WAEC and JAMB success with confidence.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle"></i> Advanced core subjects</li>
+                        <li><i class="bi bi-check-circle"></i> University entrance preparation</li>
+                        <li><i class="bi bi-check-circle"></i> Focused academic guidance</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 gal-img reveal-slide-left">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title text-light">Arts and Music</h5>
-                    <p class="card-text text-light">Explore your creative side through arts and music programs.</p>
+
+        <div class="text-center mt-5">
+            <a href="downloads/School_Curriculum_2026.pdf" download="School_Curriculum_2026.pdf" class="btn btn-primary btn-lg">
+                Download Academic Curriculum (PDF)
+            </a>
+        </div>
+    </section>
+
+    <section id="activities" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-heading text-center mb-4">
+                <p class="eyebrow">Beyond the Classroom</p>
+                <h2>Activities that build character and confidence</h2>
+                <p class="text-muted">Learning at Heritage goes beyond examinations and lessons.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 reveal-slide-left">
+                    <div class="activity-card h-100">
+                        <h5>Sports</h5>
+                        <p>Students take part in active competition, teamwork and physical wellbeing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal-slide-left">
+                    <div class="activity-card h-100">
+                        <h5>Clubs and Societies</h5>
+                        <p>Opportunities for leadership, discovery and shared interests across many student groups.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal-slide-left">
+                    <div class="activity-card h-100">
+                        <h5>Arts and Music</h5>
+                        <p>Creative expression is encouraged through arts, performance and cultural activities.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="school-calendar text-center mt-5">
-        <h3 class="text-primary reveal-slide-left">School Calendar</h3>
-        <p class="text-muted reveal-slide-left">Check out our academic calendar for important dates and events.</p>
-    </div>
-     <div class="text-center mt-2">
-        <a href="downloads/School_Curriculum_2026.pdf" download="School_Curriculum_2026.pdf" class="btn btn-outline-primary">
-            Download Our Academic Calendar (PDF) 300KB
-        </a>
-    </div>
+    <section class="container py-5">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7 reveal-fade-up">
+                <div class="calendar-card">
+                    <p class="eyebrow">School Calendar</p>
+                    <h2>Stay connected with academic dates and events</h2>
+                    <p class="text-light">Keep track of important school dates, activities and milestones throughout the year.</p>
+                    <a href="downloads/School_Curriculum_2026.pdf" download="School_Curriculum_2026.pdf" class="btn btn-outline-primary mt-2">
+                        Download Academic Calendar (PDF)
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5 reveal-fade-up">
+                <div class="calendar-highlight">
+                    <h4>Academic Year Highlights</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="bi bi-calendar2-week"></i> Termly assessments</li>
+                        <li><i class="bi bi-calendar2-week"></i> Co-curricular events</li>
+                        <li><i class="bi bi-calendar2-week"></i> Parent engagement sessions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    <button class="btn btn-primary mt-4 d-block mx-auto reveal-fade-up" onclick="window.location.href='index.html'">
-    Back to Home
-    </button>
+        <div class="text-center mt-4">
+            <a class="btn btn-outline-primary reveal-fade-up" href="index.html">Back to Home</a>
+        </div>
     </section>
   
     
